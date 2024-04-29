@@ -37,4 +37,26 @@ for i in range(1,101):
     others += 1
 print('\ntimes3 = %d, times5 = %d,times7 = %4d'%(times3,times5,times7))
 print('other = %d'%(others))
+
+import random
+count = 1
+while count <= 12:
+    for i in range(1,6):
+        randNum = random.randint(1,49)
+        print('%3d'%(randNum),end = '  ')
+    print()
+    count += 1
+print('over')
+
+import random
+again = 1
+while again == 1:
+    for i in range(1,7):
+        randNum = random.randint(1,49)
+        print('%3d'%(randNum),end = '  ')
+    print()
+    again = eval(input('continue:1 or quit:0---->'))
+print('Over') 
+
+
     
