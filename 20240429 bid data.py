@@ -58,5 +58,14 @@ while again == 1:
     again = eval(input('continue:1 or quit:0---->'))
 print('Over') 
 
+import random
+while True:
+    for i in range(1,7):
+        randNum = random.randint(1,49)
+        print(randNum,end = '  ')
+    print()
+    if again == 0:
+        break
+print('over')
 
     
